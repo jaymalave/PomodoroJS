@@ -16,9 +16,6 @@ var pomodoro = {
         var self = this;  //carry the context.
         this.minutesDOM = document.querySelector('#minutes');
         this.secondsDOM = document.querySelector('#seconds');
-        // this.sessionsDOM = document.querySelector('#number');
-        this.shortBDOM = document.querySelector('.short-break');
-        this.longBDOM = document.querySelector('.long-break');
         this.interval = setInterval(function(){
              self.intervalCallback.apply(self);
         }, 1000);
@@ -84,7 +81,6 @@ var pomodoro = {
         },
 
 
-        
         intervalCallback : function(){
             if(!this.started) return false;
             if(this.seconds == 0){
