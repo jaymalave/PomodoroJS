@@ -1,0 +1,92 @@
+body {
+    background: #143754;
+
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pomodoro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 3%;
+    background-color: #061c2e;
+    color: aliceblue;
+    width: 500px;
+    height: 300px;
+    border-radius: 60%;
+    border-color: palevioletred;
+    box-shadow: 1px 5px 2px 4px black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+span {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+
+#work {
+    background-color: greenyellow;
+    color: black;
+    font-size: large;
+}
+
+#shortBreak {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 15px;
+}
+
+#longBreak {
+    background-color: cadetblue;
+    color: black;
+    font-size: 15px;
+}
+
+#stop {
+    background-color: red;
+    color: black;
+    font-size: 15px;
+}
+
+.sessions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
